@@ -4,8 +4,9 @@
 }
 
 html, body {
-  width: 45em;
+  max-width: 42em;
   margin: auto;
+  padding: 0em 2em;
   display: flex;
   flex-flow: column;
 }
@@ -20,6 +21,10 @@ html, body {
   width: 100%;
   text-align: center;
   font-size: 1.5em;
+}
+
+.paragraph {
+  font-size: 1em;
 }
 
 #clock {
