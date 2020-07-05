@@ -6,7 +6,6 @@
 html, body {
   max-width: 42em;
   margin: auto;
-  padding: 0em 2em;
   display: flex;
   flex-flow: column;
 }
