@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Schweizer Bahnhofsuhr</title>
+  <link rel="stylesheet" type="text/css" href="clock.css">
+  <script type="application/javascript" src="clock.js"></script>
+  <script type="application/javascript">
+    function installClock() {
+      var e = document.getElementById('clock');
+      var c = new clock.Clock(e);
+      c.run();
+    };
+  </script>
+</head>
+<body onload="installClock();">
+  <div class="title">Schweizer Bahnhofsuhr</div>
+  <div class="subtitle">The Swiss Federal Railways Clock</div>
+  <div id="clock"></div>
+  <p class="paragraph">
+  This widget reproduces the mechanical subtleties of the Swiss Federal
+  Railways clock, the "Schweizer Bahnhofsuhr", by modeling each hand as a
+  damped
+  <a href="https://en.wikipedia.org/wiki/Torsion_spring#Torsional_harmonic_oscillators">torsional harmonic oscillator</a>.
+  <p class="paragraph">
+  The clock was designed by Swiss engineer and designer Hans Hilfiker in 1944,
+  while working for the Swiss Federal Railways.
+  <p class="paragraph">
+  More information:
+  <ul>
+    <li>
+      <a href="http://www.eda.admin.ch/aboutswitzerland/en/home/dossiers/einleitung---schweizer-uhren/spezielle-uhren--schweizer-bahnhofsuhr.html">
+        Swiss Railway Clock
+      </a>
+    <li>
+      <a href="http://en.wikipedia.org/wiki/Hans_Hilfiker">Hans Hilfiker</a>
+    </li>
+    </li>
+    <li>
+      <a href="http://en.wikipedia.org/wiki/Swiss_Federal_Railways">
+        Swiss Federal Railways - SBB CFF FFS
+      </a>
+    </li>
+  </ul>
+</body>
+</html>

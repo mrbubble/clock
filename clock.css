@@ -1,0 +1,27 @@
+* {
+  font-family: helvetica;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 45em;
+  margin: auto;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+}
+
+.subtitle {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#clock {
+  width: 300px;
+  margin: auto;
+  align: center;
+}

@@ -6,12 +6,6 @@
  * damped torsional harmonic oscillator.
  * The clock was designed by Swiss engineer and designer Hans Hilfiker in 1944,
  * while working for the Swiss Federal Railways.
- * For more information on the clock, see:
- * <ul>
- * <li>http://en.wikipedia.org/wiki/Hans_Hilfiker
- * <li>http://www.swissworld.org/en/switzerland/swiss_specials/swiss_watches/the_swiss_railway_clock/
- * <li>http://en.wikipedia.org/wiki/Swiss_Federal_Railways
- * </ul>
  *
  * @example
  * // Here, "myclock" is a div element on the page where the clock will be. 
@@ -103,7 +97,7 @@ clock.DEFAULT_OPTIONS_ = {
     minute_marker: 'black',
     hour_hand: 'black',
     minute_hand: 'black',
-    second_hand: 'red',
+    second_hand: '#C22222',
     shadow: {
       color: 'rgba(0, 0, 0, 0.2)',
       offsetX: 5,      
