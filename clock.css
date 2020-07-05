@@ -6,6 +6,8 @@
 html, body {
   width: 45em;
   margin: auto;
+  display: flex;
+  flex-flow: column;
 }
 
 .title {
