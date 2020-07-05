@@ -4,8 +4,9 @@
 }
 
 html, body {
-  max-width: 42em;
+  max-width: 40em;
   margin: auto;
+  padding: 0em 1em;
   display: flex;
   flex-flow: column;
 }
